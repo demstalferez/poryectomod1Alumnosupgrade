@@ -94,7 +94,7 @@ Holiday_Special,2023-12-01,95000,.56,seasonal,B2C,display,2.4,148200"""
         tabs = st.tabs(["Valores Nulos", "Formatos (ejemplo)", "Outliers como curiosidad"])
         
         with tabs[0]:
-            fig = px.imshow(df.isnull(), color_continuous_scale=["#ffffff", "#FF5A5F"], title="Mapa de Nulos")
+            fig = px.imshow(df.isnull(), color_continuous_scale=["#000000", "#FF5A5F"], title="Mapa de Nulos")
             st.plotly_chart(fig, use_container_width=True)
         
         with tabs[1]:
