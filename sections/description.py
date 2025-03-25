@@ -6,7 +6,7 @@ def show_description():
     # Introducción con diseño mejorado y contraste asegurado
     st.markdown("""
     <div class="highlight">
-        <p style="color: #333;">¡Bienvenido a Upgrade Hub! Estás a punto de empezar tu aventura como analista de datos, y tenemos un reto genial para ti. Imagínate esto: una multinacional tecnológica nos ha enviado un dataset con los datos de sus campañas de marketing de los últimos dos años. El archivo (<code>marketing_campaigns_messy.csv</code>) tiene cosas como nombres de campañas, fechas, presupuestos, ROI, tipos de campaña, audiencias, canales, tasas de conversión e ingresos. Suena interesante, ¿verdad? Pero hay un problema: <strong>¡está súper desordenado!</strong> Hay fechas que no tienen sentido, números que faltan, valores raros... un desastre.</p>
+        <p style="color: #333;">¡Bienvenido a Upgrade Hub! Estás a punto de empezar tu aventura como analista de datos, y tenemos un reto genial para ti. Imagínate esto: una multinacional tecnológica nos ha enviado un dataset con los datos de sus campañas de marketing de los últimos dos años. El archivo (<code>marketingcampaigns.csv</code>) tiene cosas como nombres de campañas, fechas, presupuestos, ROI, tipos de campaña, audiencias, canales, tasas de conversión e ingresos. Suena interesante, ¿verdad? Pero hay un problema: <strong>¡está súper desordenado!</strong> Hay fechas que no tienen sentido, números que faltan, valores raros... un desastre.</p>
     </div>
     """, unsafe_allow_html=True)
     
@@ -72,7 +72,7 @@ def show_description():
     steps = [
         {
             "title": "1. Carga y Mira el Dataset",
-            "desc": "Abre el archivo marketing_campaigns_messy.csv y échale un vistazo.",
+            "desc": "Abre el archivo marketingcampaigns.csv y échale un vistazo.",
             "steps": ["Mira las primeras filas para ver cómo está organizado.", 
                      "Comprueba qué tipo de datos tiene cada columna y si hay huecos.", 
                      "Saca algunos números básicos (como promedios o valores máximos) para detectar cosas raras."],

@@ -160,8 +160,7 @@ with st.sidebar:
     with st.expander("📧 Soporte"):
         st.markdown("""
         - Email: demetrio.esteban@bootcamp-upgrade.com  
-        - Slack: #desafio-marketing  
-        - Tutorías: Agenda con tu mentor
+        - Tutorías: Agenda con tu mentor o si no quieres esperar, participa en las sesiones de clase
         """)
     
     # Pie de página de sidebar

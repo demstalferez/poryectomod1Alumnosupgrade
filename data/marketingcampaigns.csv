@@ -1013,3 +1013,26 @@ Negative Revenue Test,2023-05-15,2023-11-15,25000,0,45,podcast,B2B,paid,0.33,-15
 Duplicate Campaign,2023-04-01,2024-02-23,8082.3,0.35,email,B2B,organic,0.4,709593.48
 Inconsistent Decimal,2023-06-01,2023-12-01,12345,67,0,33,social media,B2C,referral,0,75,89000
 Outlier Budget,2023-07-01,2024-03-01,9999999,0.1,email,B2B,promotion,0.2,50000
+Public-key multi-tasking throughput,2023-04-01,2024-02-23,8082.3,0.35,email,B2B,organic,0.4,709593.48
+De-engineered analyzing task-force,2023-02-15,2024-04-22,17712.98,0.74,email,B2C,promotion,0.66,516609.1
+Balanced solution-oriented Local Area Network,2022-12-20,2023-10-11,84643.1,0.37,podcast,B2B,paid,0.28,458227.42
+Distributed real-time methodology,2022-09-26,2023-09-27,14589.75,0.47,webinar,B2B,organic,0.19,89958.73
+Front-line executive infrastructure,2023-07-07,2024-05-15,39291.9,0.3,social media,B2B,promotion,0.81,47511.35
+Upgradable transitional data-warehouse,2023-06-29,2023-12-13,75569.28,0.59,social media,B2C,referral,0.67,558302.11
+Innovative context-sensitive framework,2023-03-01,2024-02-23,28964.45,0.59,email,B2C,referral,0.17,172882.59
+User-friendly client-driven service-desk,2023-01-06,2023-12-11,36800.58,0.4,webinar,B2C,promotion,0.52,206241.46
+Proactive neutral methodology,2022-09-06,2024-01-11,40493.88,0.16,webinar,B2C,organic,0.47,734755.76
+Intuitive responsive support,2022-11-25,2024-04-04,1816.22,0.81,social media,B2C,referral,0.85,563280.3
+Multi-lateral dedicated workforce,2023-06-15,2024-06-15,94084.21,0.58,podcast,B2B,referral,0.23,406522.77
+Cross-platform demand-driven encoding,2023-07-21,2023-11-04,64041.37,0.16,social media,B2B,promotion,0.55,174462.47
+Cloud-based scalable solution,,2023-12-31,50000,,event,B2C,paid,0.3,120000
+Broken-date campaign,2023-13-01,2024-01-01,25000,0.45,email,B2B,organic,,87500
+Negative ROI test,2022-10-10,2023-05-05,-10000,-0.2,podcast,B2C,referral,0.1,
+Null-heavy campaign,2023-01-01,,,,B2B,social media,,,
+Future campaign,2025-01-01,2025-06-01,75000,0.9,webinar,B2C,promotion,0.65,200000
+Extra long name campaign test,2023-04-15,2023-09-15,30000,0.25,email,,paid,0.4,45000
+No revenue campaign,2023-02-01,2023-08-01,20000,0.3,social media,B2B,organic,0.5,
+Random mess,2023-06-06,,100000,,podcast,,referral,,300000
+Invalid budget,2022-12-01,2023-06-01,abc,,email,B2C,promotion,0.2,50000
+Overlapping dates,2023-03-01,2022-12-31,60000,0.6,webinar,B2B,paid,0.7,90000
+Too many conversions,2023-05-01,2023-11-01,40000,0.8,social media,B2C,organic,1.5,120000

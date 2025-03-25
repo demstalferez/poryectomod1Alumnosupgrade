@@ -8,7 +8,10 @@ import base64
 def load_dataset(file_path, sample_data=None):
     """Carga el dataset o usa datos de ejemplo si falla."""
     try:
-        return pd.read_csv(file_path, encoding='utf-8')
+        # Intentar cargar el archivo CSV, omitiendo líneas problemáticas
+        df = pd.read_csv(file_path, encoding='utf-8', on_bad_lines='warn')
+        st.success(f"Dataset '{file_path}' cargado correctamente.")
+        return df
     except FileNotFoundError:
         st.error(f"⚠️ El archivo '{file_path}' no se encuentra.")
         if sample_data:
@@ -17,10 +20,18 @@ def load_dataset(file_path, sample_data=None):
         return pd.DataFrame()
     except Exception as e:
         st.error(f"Error al cargar el dataset: {str(e)}")
-        if sample_data:
-            st.warning("Mostrando datos de ejemplo.")
-            return pd.read_csv(StringIO(sample_data))
-        return pd.DataFrame()
+        st.info("Intentando cargar el archivo ignorando líneas problemáticas...")
+        try:
+            # Segundo intento: omitir líneas malas
+            df = pd.read_csv(file_path, encoding='utf-8', on_bad_lines='skip')
+            st.warning(f"Se omitieron líneas problemáticas en '{file_path}'. Revisa el archivo para corregir inconsistencias.")
+            return df
+        except Exception as e2:
+            st.error(f"No se pudo cargar el archivo incluso omitiendo errores: {str(e2)}")
+            if sample_data:
+                st.warning("Mostrando datos de ejemplo.")
+                return pd.read_csv(StringIO(sample_data))
+            return pd.DataFrame()
 
 def get_download_link(file_path, file_name):
     """Genera un enlace de descarga para un archivo."""
